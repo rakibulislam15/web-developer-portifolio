@@ -97,10 +97,57 @@ main{
  .about-info-cintant{
     text-align: center;
  }
+ /* skills stlyes */
  #what{
     padding: 30px 150px;
  }
  .skills-container{
     display: flex;
-    justify-content: space-around;
+    gap: 24px;
+ }
+ .skill{
+    padding: 35px;
+    border-radius: 5px;
+    background-color: #FFF;
+    box-shadow: 0 6PX 50PX 0 rgba(0,0,0,0.06);
+    
+ }
+ .skills-discription{
+    
+ }
+
+  .summery-title{
+    text-align: center;
+  }
+ /* resume styles */
+
+ .resume-title{
+    font-size: 30px;
+    font-weight: 700;
+    color: #474747;
+ }
+
+ .resume-container{
+    display: flex;
+    gap: 50px;
+ }
+ .resume-item-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+ }
+ .resume-discription{
+    color: #181818;
+ }
+ .resume-company{
+    color: #757575;
+    margin-bottom: 20px;
+    margin-top: 0;
+ }
+  .resume-container hr{
+    margin: 30px;
+ } 
+ .cv{
+    text-align: center;
+    margin-top: 50px;
  }
