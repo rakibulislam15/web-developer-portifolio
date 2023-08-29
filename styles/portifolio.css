@@ -151,3 +151,27 @@ main{
     text-align: center;
     margin-top: 50px;
  }
+
+ /* footer styles */
+ footer{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    margin-top: 113px;
+    padding: 130px 200px;
+ }
+ .footer-colume{
+    width: 50%;
+ }
+ .form input[type="text"] ,.form input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    border: 0;
+    padding: 18px 30px;
+    color: #757575;
+    background-color: #FFF;
+    width: 100%;
+ }
+ /* .btn-primary{
+    background-color: #FD6E0A;
+ } */
